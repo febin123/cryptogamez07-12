@@ -6,21 +6,7 @@
 /*start of menubar*/
 
 
-$(window).scroll(function() {
-  if ($(this).scrollTop() >= 350) {        // If page is scrolled more than 50px
-      $('#hea').slideDown();    // Fade in the arrow
-  } else {
-      $('#hea').slideUp();   // Else fade out the arrow
-  }
- 
-});
 
-$(window).scroll(function() {
-  if ($(this).scrollTop() <= 0) {        // If page is scrolled more than 50px
-      $('#hea').slideDown();    // Fade in the arrow
-  }
- 
-});
 
 
 const mainMenu = document.querySelector('.mainMenu');
